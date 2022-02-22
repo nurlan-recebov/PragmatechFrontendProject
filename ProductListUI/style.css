@@ -5,12 +5,14 @@
    
    .collection-container {
        max-width: 1200px;
+       display: flex;
+       justify-content: center;
+       margin: 0 50px;
    }
    
    .collection-items {
-       display: flex;
-       justify-content: center;
-       align-items: center;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
    }
    
    .collection-item {
