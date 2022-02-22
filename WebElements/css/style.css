@@ -6,7 +6,7 @@ body {
 
 .container {
   width: 1349px;
-  height: 800px;
+  height: 900px;
   margin: 0px auto;
   text-align: center;
 }
@@ -66,10 +66,14 @@ body {
 .icon {
   width: 130px;
   height: 130px;
-  margin: 20px;
+  margin: 10px;
   border: solid;
   border-radius: 100%;
   text-align: center;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 
 .icon i {
@@ -80,7 +84,7 @@ body {
 
 .container {
   width: 1349px;
-  height: 800px;
+  height: 900px;
   margin: 0px auto;
   text-align: center;
 }
@@ -94,10 +98,6 @@ body {
   padding: 13px 15px;
   text-align: center;
   color: white;
-  margin-bottom: 60px;
-}
-
-p {
   margin-bottom: 60px;
 }
 
@@ -142,14 +142,14 @@ button {
   position: absolute;
   content: "";
   bottom: 0;
-  width: 360px;
+  width: 340px;
   height: 0;
   background-color: orange;
   z-index: -1;
 }
 
 .demo1 .services-item:hover::after {
-  height: 411px;
+  height: 391px;
   transition: all 0.4s linear;
   padding: 10px;
   margin: 40px 25px;
@@ -196,11 +196,147 @@ button {
 .demo2 .services-item:hover {
   background-color: #4d4d95;
   transition: all .4s ease;
-  zoom: 90%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  transform: scale(0.9);
   -webkit-transition: all .4s ease;
   -moz-transition: all .4s ease;
   -ms-transition: all .4s ease;
   -o-transition: all .4s ease;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+
+.demo2 h1,
+.demo2 p {
+  color: white;
+}
+
+.demo2 .services-item:hover button {
+  background-color: #5656a6;
+  color: white;
+}
+
+.demo3 .services-item {
+  width: 360px;
+  height: 352px;
+}
+
+.demo3 h2 {
+  background-color: #24cf5f;
+  color: white;
+}
+
+.demo3 .icon {
+  color: #24cf5f;
+  border: none;
+}
+
+.demo3 button {
+  background: #24cf5f;
+  border-radius: 43px;
+  -webkit-border-radius: 43px;
+  -moz-border-radius: 43px;
+  -ms-border-radius: 43px;
+  -o-border-radius: 43px;
+}
+
+.demo3 .overlay:hover {
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example {
+  0% {
+    border-bottom: 2px solid #24cf5f;
+  }
+  25% {
+    border-bottom: 2px solid #24cf5f;
+    border-left: 2px solid #24cf5f;
+  }
+  50% {
+    border-bottom: 2px solid #24cf5f;
+    border-left: 2px solid #24cf5f;
+    border-top: 2px solid #24cf5f;
+  }
+  100% {
+    border: 2px solid #24cf5f;
+  }
+}
+
+@keyframes example {
+  0% {
+    border-bottom: 2px solid #24cf5f;
+  }
+  25% {
+    border-bottom: 2px solid #24cf5f;
+    border-left: 2px solid #24cf5f;
+  }
+  50% {
+    border-bottom: 2px solid #24cf5f;
+    border-left: 2px solid #24cf5f;
+    border-top: 2px solid #24cf5f;
+  }
+  100% {
+    border: 2px solid #24cf5f;
+  }
+}
+
+.demo3 button:hover {
+  background-color: #47df7b;
+}
+
+.demo4 h2 {
+  background-color: #e12573;
+}
+
+.demo4 .services-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.demo4 .icon {
+  border: none;
+  color: #e12573;
+}
+
+.demo4 button {
+  background: #e12573;
+  border-radius: 43px;
+  -webkit-border-radius: 43px;
+  -moz-border-radius: 43px;
+  -ms-border-radius: 43px;
+  -o-border-radius: 43px;
+  margin-bottom: 100px;
+  padding: 12px 10px;
+  margin-left: 30px;
+}
+
+.demo4 .services-items {
+  position: relative;
+}
+
+.demo4 .services-item::after {
+  position: absolute;
+  content: "";
+  width: 720px;
+  background-color: #e12573;
+  z-index: -1;
+}
+
+.demo4 .services-item:hover::after {
+  width: 320px;
+  height: 310px;
+  margin: 40px 25px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }

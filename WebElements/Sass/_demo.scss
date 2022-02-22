@@ -17,13 +17,13 @@
                         position: absolute;
                         content: "";
                         bottom: 0;
-                        width: 360px;
+                        width: 340px;
                         height: 0;
                         background-color: $main-color;
                         z-index: -1;
                     }
                     .services-item:hover::after {
-                        height: 411px;
+                        height: 391px;
                         transition: all 0.4s linear;
                         padding: $space-2x;
                         margin: $space-8x $space-5x;
@@ -62,11 +62,117 @@
                     .services-item:hover {
                         background-color: darken( $main2-color, 5%);
                         transition: all .4s ease;
-                        zoom: 90%;
-                        box-sizing: border-box;
+                        transform: scale(0.9);
                         -webkit-transition: all .4s ease;
                         -moz-transition: all .4s ease;
                         -ms-transition: all .4s ease;
                         -o-transition: all .4s ease;
+                        -webkit-transform: scale(0.9);
+                        -moz-transform: scale(0.9);
+                        -ms-transform: scale(0.9);
+                        -o-transform: scale(0.9);
+                    }
+                    h1,
+                    p {
+                        color: white;
+                    }
+                    .services-item:hover button {
+                        background-color: $main2-color;
+                        color: white;
+                    }
+                }
+                
+                .demo3 {
+                    .services-item {
+                        width: 360px;
+                        height: 352px;
+                    }
+                    h2 {
+                        background-color: $main3-color;
+                        color: white;
+                    }
+                    .icon {
+                        color: $main3-color;
+                        border: none;
+                    }
+                    button {
+                        background: $main3-color;
+                        border-radius: 43px;
+                        -webkit-border-radius: 43px;
+                        -moz-border-radius: 43px;
+                        -ms-border-radius: 43px;
+                        -o-border-radius: 43px;
+                    }
+                    .overlay:hover {
+                        animation-name: example;
+                        animation-duration: 2s;
+                        animation-fill-mode: forwards;
+                    }
+                    .overlay:hover {
+                        @keyframes example {
+                            0% {
+                                border-bottom: 2px solid $main3-color;
+                            }
+                            25% {
+                                border-bottom: 2px solid $main3-color;
+                                border-left: 2px solid $main3-color;
+                            }
+                            50% {
+                                border-bottom: 2px solid $main3-color;
+                                border-left: 2px solid $main3-color;
+                                border-top: 2px solid $main3-color;
+                            }
+                            100% {
+                                border: 2px solid $main3-color;
+                            }
+                        }
+                    }
+                    button:hover {
+                        background-color: lighten( $main3-color, 10%);
+                    }
+                }
+                
+                .demo4 {
+                    h2 {
+                        background-color: $main4-color;
+                    }
+                    .services-item {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                    }
+                    .icon {
+                        border: none;
+                        color: $main4-color;
+                    }
+                    button {
+                        background: $main4-color;
+                        border-radius: 43px;
+                        -webkit-border-radius: 43px;
+                        -moz-border-radius: 43px;
+                        -ms-border-radius: 43px;
+                        -o-border-radius: 43px;
+                        margin-bottom: 100px;
+                        padding: 12px 10px;
+                        margin-left: 30px;
+                    }
+                    .services-items {
+                        position: relative;
+                    }
+                    .services-item::after {
+                        position: absolute;
+                        content: "";
+                        width: 720px;
+                        background-color: $main4-color;
+                        z-index: -1;
+                    }
+                    .services-item:hover::after {
+                        width: 320px;
+                        height: 310px;
+                        margin: $space-8x $space-5x;
+                        transition: all 0.4s ease;
+                        -webkit-transition: all 0.4s ease;
+                        -moz-transition: all 0.4s ease;
+                        -ms-transition: all 0.4s ease;
+                        -o-transition: all 0.4s ease;
                     }
                 }

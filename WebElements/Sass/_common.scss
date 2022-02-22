@@ -55,10 +55,14 @@ body {
 .icon {
     width: 130px;
     height: 130px;
-    margin: 20px;
+    margin: 10px;
     border: solid;
     border-radius: 100%;
     text-align: center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
 .icon i {
@@ -83,10 +87,6 @@ body {
     padding: 13px 15px;
     text-align: center;
     color: white;
-    margin-bottom: 60px;
-}
-
-p {
     margin-bottom: 60px;
 }
 
