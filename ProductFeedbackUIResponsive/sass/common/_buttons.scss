@@ -1,0 +1,73 @@
+@mixin button {
+    width: 158px;
+    height: 44px;
+    color: white;
+    border-radius: 10px;
+    background-color: $mor;
+}
+
+@mixin button1 {
+    height: 30px;
+    width: 48px;
+    border-radius: 10px;
+    color: #4661E6;
+    background: #F2F4FF;
+    outline: none;
+    border: none;
+    margin-bottom: 19px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+@mixin button2 {
+    height: 30px;
+    width: 111px;
+    color: #4661E6;
+    background: #F2F4FF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 19px;
+    border: none;
+}
+
+@mixin button3 {
+    height: 30px;
+    width: 77px;
+    color: #4661E6;
+    background: #F2F4FF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    margin-bottom: 19px;
+}
+
+.btn1 {
+    button {
+        @include button1()
+    }
+}
+
+.btn1 :nth-child(1) {
+    background: #4661E6;
+    color: #F2F4FF;
+}
+
+.btn2 :nth-child(1) {
+    @include button2()
+}
+
+.btn2 :nth-child(2) {
+    @include button1()
+}
+
+.btn3 button {
+    @include button3()
+}
