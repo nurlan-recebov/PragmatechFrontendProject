@@ -1,0 +1,115 @@
+@media only screen and (max-width: 576px) {
+    .road-teams:nth-child(2) {
+        .road-team {
+            border-top: 5px solid #AD1FEA;
+        }
+        .road-color {
+            background-color: #AD1FEA;
+        }
+    }
+    .road-teams:nth-child(1) {
+        display: none;
+    }
+    .road-teams:nth-child(3) {
+        display: none;
+    }
+    .header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 0%;
+    }
+    .road-main {
+        display: block;
+    }
+    .road-teams {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .road-teams:nth-child(2) {
+        .road-team {
+            border-top: 5px solid #AD1FEA;
+        }
+        .road-color {
+            background-color: #AD1FEA;
+        }
+    }
+    .road-teams:nth-child(1) {
+        display: none;
+    }
+    .road-teams:nth-child(3) {
+        display: none;
+    }
+    .header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        -moz-border-radius: 0%;
+        -ms-border-radius: 0%;
+        -o-border-radius: 0%;
+    }
+    .road-main {
+        display: block;
+    }
+    .road-teams {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .road-teams {
+        margin-left: 5px;
+    }
+    .road-team {
+        height: 251px;
+        width: 203px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .road-teams {
+        margin-left: 20px;
+    }
+    .road-team {
+        height: 281px;
+        width: 233px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1350px) {
+    .header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

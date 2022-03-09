@@ -1,303 +1,357 @@
-.container {
-    margin: 0 auto;
-    display: flex;
-    height: 1600px;
-    align-items: center;
-    flex-direction: column;
-}
-
-body {
-    background-color: #F7F8FD;
-}
-
-.header {
-    height: 70px;
-    width: 1020px;
-    left: 450px;
-    top: 94px;
-    border-radius: 10px;
-    background-color: #373F68;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    padding: 30px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header i {
-    height: 4px;
-    width: 8px;
-    border-radius: 0px;
-    color: #CDD2EE;
-    margin-right: 15px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    margin-bottom: 10px;
-}
-
-.header-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.header-item h4 {
-    font-family: Jost;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #FFFFFF;
-}
-
-.header-items h3 {
-    font-family: Jost;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    letter-spacing: -0.3333333432674408px;
-    text-align: left;
-    color: #FFFFFF;
-}
-
-.header-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-
-.header button {
-    border: none;
-    height: 44px;
-    width: 158px;
-    border-radius: undefinedpx;
-    background-color: $mor;
-    color: #FFFFFF;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    cursor: pointer;
-}
-
-.header button p {
-    font-family: Jost;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: white;
-}
-
-.road {
-    display: flex;
-}
-
-.road-head h4 {
-    font-family: Jost;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: -0.25px;
-    text-align: left;
-    color: #3A4374;
-}
-
-.road-head p {
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #647196;
-    margin-bottom: 30px;
-}
-
-.road-teams {
-    margin-left: 30px;
-}
-
-.road-team {
-    width: 290px;
-    height: 212px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background-color: #FFFFFF;
-    border-top: 5px solid #F49F85;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    margin-bottom: 20px;
-}
-
-.road-team-groups {
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.road-color {
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    background-color: #F49F85;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    margin-right: 20px;
-    margin-top: 8px;
-}
-
-.road-team-groups p {
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0px;
-    text-align: left;
-}
-
-.road-team h2 {
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #647196;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.road-team button {
-    height: 40px;
-    width: 77px;
-    border-radius: 10px;
-    background-color: #F2F4FF;
-    color: #4661E6;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.road-team button p {
-    font-family: Jost;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #4661E6;
-}
-
-.road-team-groups-end {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-.road-team-group-left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 69px;
-    height: 40px;
-    background-color: #F2F4FE;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.road-team-group-left i {
-    color: #4661E6;
-    margin-right: 10px;
-    font-size: 12px;
-}
-
-.road-team-group-left h5 {
-    font-family: Jost;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: -0.1805555522441864px;
-    text-align: center;
-    color: #3A4374;
-}
-
-.road-team-group-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.road-team-group-right i {
-    font-size: 20px;
-    color: #CDD2EE;
-    margin-right: 10px;
-}
-
-.road-team-group-right p {
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: -0.2222222238779068px;
-    text-align: center;
-    color: #3A4374;
-}
-
-.road-teams:nth-child(2) {
-    .road-team {
-        border-top: 5px solid #AD1FEA;
+    .container {
+        margin: 0 auto;
+        display: flex;
+        height: 1600px;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
     }
+    
+    body {
+        background-color: #F7F8FD;
+    }
+    
+    .header {
+        height: 130px;
+        width: 1100px;
+        border-radius: 10px;
+        background-color: #373F68;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        //max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .header i {
+        font-size: 15px;
+        color: #CDD2EE;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .header-item {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    
+    .header-item h4 {
+        font-family: Jost;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .header-items h3 {
+        font-family: Jost;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .header-items {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    
+    .head-button {
+        padding: 0 30px;
+    }
+    
+    .header button {
+        border: none;
+        height: 44px;
+        width: 158px;
+        border-radius: undefinedpx;
+        background-color: $mor;
+        color: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        -webkit-border-radius: undefinedpx;
+        -moz-border-radius: undefinedpx;
+        -ms-border-radius: undefinedpx;
+        -o-border-radius: undefinedpx;
+        cursor: pointer;
+    }
+    
+    .header button p {
+        font-family: Jost;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: white;
+    }
+    
+    .road {
+        display: flex;
+    }
+    
+    .road-head h4 {
+        font-family: Jost;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: -0.25px;
+        text-align: left;
+        color: #3A4374;
+    }
+    
+    .road-head p {
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #647196;
+        margin-bottom: 30px;
+    }
+    
+    .road-teams {
+        margin-left: 30px;
+    }
+    
+    .road-team {
+        width: 290px;
+        height: 212px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: #FFFFFF;
+        border-top: 5px solid #F49F85;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .road-team-groups {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    
     .road-color {
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background-color: #F49F85;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .road-team-groups p {
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: -8px;
+    }
+    
+    .road-team h2 {
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #647196;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .road-team button {
+        height: 40px;
+        width: 77px;
+        border-radius: 10px;
+        background-color: #F2F4FF;
+        color: #4661E6;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .road-team button p {
+        font-family: Jost;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #4661E6;
+    }
+    
+    .road-team-groups-end {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    
+    .road-team-group-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 69px;
+        height: 40px;
+        background-color: #F2F4FE;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .road-team-group-left i {
+        color: #4661E6;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    
+    .road-team-group-left h5 {
+        font-family: Jost;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: -0.1805555522441864px;
+        text-align: center;
+        color: #3A4374;
+    }
+    
+    .road-team-group-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .road-team-group-right i {
+        font-size: 20px;
+        color: #CDD2EE;
+        margin-right: 10px;
+    }
+    
+    .road-team-group-right p {
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: -0.2222222238779068px;
+        text-align: center;
+        color: #3A4374;
+    }
+    
+    .road-teams:nth-child(2) {
+        .road-team {
+            border-top: 5px solid #AD1FEA;
+        }
+        .road-color {
+            background-color: #AD1FEA;
+        }
+    }
+    
+    .road-teams:nth-child(3) {
+        .road-team {
+            border-top: 5px solid #62BCFA;
+        }
+        .road-color {
+            background: #62BCFA;
+        }
+    }
+    
+    .road-main {
+        display: none;
+    }
+    
+    .road-heads {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .road-heads p {
+        font-family: Jost;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: -0.1805555522441864px;
+        text-align: center;
+        color: #3A4374;
+        opacity: 40%;
+    }
+    
+    .road-heads :nth-child(2) {
+        p {
+            font-family: Jost;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 19px;
+            letter-spacing: -0.1805555522441864px;
+            text-align: center;
+            color: #3A4374;
+            opacity: 100%;
+        }
+        div {
+            border-bottom: 4px solid #AD1FEA;
+        }
+    }
+    
+    .border {
+        width: 100vw;
+        height: 1px;
+        background-color: #8C92B3;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .border span {
+        width: 130px;
+        height: 4px;
         background-color: #AD1FEA;
+        position: absolute;
+        margin-bottom: 5px;
     }
-}
-
-.road-teams:nth-child(3) {
-    .road-team {
-        border-top: 5px solid #62BCFA;
-    }
-    .road-color {
-        background: #62BCFA;
-    }
-}
