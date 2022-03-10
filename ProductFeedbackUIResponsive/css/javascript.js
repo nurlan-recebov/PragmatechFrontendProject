@@ -4,6 +4,8 @@ function nurlan() {
     document.getElementById("iki").style.display = "none";
     document.getElementById("one").style.opacity = '100%';
     document.getElementById("two").style.opacity = '40%';
+    document.getElementById('border').style.justifyContent = 'flex-start'
+    document.getElementById("three").style.opacity = '40%';
 }
 
 function cahan() {
@@ -12,6 +14,8 @@ function cahan() {
     document.getElementById("bir").style.display = "none";
     document.getElementById("two").style.opacity = '100%';
     document.getElementById("one").style.opacity = '40%';
+    document.getElementById('border').style.justifyContent = 'center'
+    document.getElementById("three").style.opacity = '40%';
 }
 
 function girov() {
@@ -21,4 +25,5 @@ function girov() {
     document.getElementById("three").style.opacity = '100%';
     document.getElementById("one").style.opacity = '40%';
     document.getElementById("two").style.opacity = '40%';
+    document.getElementById('border').style.justifyContent = 'flex-end'
 }
