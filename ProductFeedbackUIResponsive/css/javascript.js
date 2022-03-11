@@ -6,6 +6,8 @@ function nurlan() {
     document.getElementById("two").style.opacity = '40%';
     document.getElementById('border').style.justifyContent = 'flex-start'
     document.getElementById("three").style.opacity = '40%';
+    document.getElementById("span").style.backgroundColor = '#F49F85';
+
 }
 
 function cahan() {
@@ -16,6 +18,8 @@ function cahan() {
     document.getElementById("one").style.opacity = '40%';
     document.getElementById('border').style.justifyContent = 'center'
     document.getElementById("three").style.opacity = '40%';
+    document.getElementById("span").style.backgroundColor = '#AD1FEA';
+
 }
 
 function girov() {
@@ -26,4 +30,5 @@ function girov() {
     document.getElementById("one").style.opacity = '40%';
     document.getElementById("two").style.opacity = '40%';
     document.getElementById('border').style.justifyContent = 'flex-end'
+    document.getElementById("span").style.backgroundColor = '#62BCFA';
 }
