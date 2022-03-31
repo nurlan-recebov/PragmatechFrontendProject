@@ -1,6 +1,6 @@
 // inputs
 
-let students = [{
+let Students = [{
     ad: 'Eli',
     soyad: 'Piriyev',
     yas: 23
@@ -25,7 +25,7 @@ let students = [{
 //expected output
 // Ad: Eli,Soyad:Piriyev,Yas:23
 // Ad: Ehmed,Soyad:Memmedov,Yas:34
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < Students.length; i++) {
 
-    console.log(students[i]);
+    console.log("Ad:" + Students[i]['ad'] + ", Soyadi:" + Students[i]['soyad'] + ", Yasi:" + Students[i]['yas']);
 }
