@@ -1,8 +1,11 @@
+// let i = 0;
 // (function() {
 
-//     i++
-//     if (i = 0 && i < 100) {
+
+//     if (i < 100) {
 //         console.log(i);
+
+
 
 
 //     }
@@ -10,31 +13,18 @@
 // })()
 
 
-let a = 0
 
-function nurlan() {
+var b = 0
 
-    a++
-    if (a < 10) {
-
-        console.log(a);
-        nurlan()
-
+function eded() {
+    b++
+    if (b <= 300) {
+        console.log(b);
+        eded()
     }
 
 }
-nurlan()
-    // var b = 0
-
-// function eded() {
-//     b++
-//     if (b <= 300) {
-//         console.log(b);
-//         eded()
-//     }
-
-// }
 
 
 
-// eded()
+eded()
