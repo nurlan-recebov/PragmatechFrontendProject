@@ -84144,15 +84144,16 @@ countries = {
         "Victoria Falls"
     ]
 };
-// Hərfə görə ölkə sayının olduğu object
-// return edən funksiya yazın.Nümunə { "A": 20, "B": 15
-for (let key in countries) {
-    // keys
-    // name, age, isAdmin
-    // values for the keys
-    // John, 30, true
 
 
+// Sadəcə ölkə adlarının olduğu array - ı
+// return edən funksiya yazın
 
-    console.log(key);
-};
+
+function ShowCountryName() {
+    for (let key in countries) {
+
+        console.log(key);
+    }
+}
+ShowCountryName()
