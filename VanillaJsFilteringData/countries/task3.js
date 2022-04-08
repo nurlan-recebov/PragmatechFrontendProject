@@ -117,3 +117,18 @@ countries = {
         "Spanish Wells"
     ],
 }
+
+function maxcontry(obj) {
+    let countriesCities = Object.entries(obj);
+    let max = 0;
+    let maxolke;
+    for (x of countriesCities) {
+        if (max < x[1].length) {
+            max = x[1].length
+            maxolke = x[0]
+
+        }
+    }
+    console.log(maxolke)
+}
+maxcontry(countries)

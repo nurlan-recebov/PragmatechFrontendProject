@@ -116,16 +116,3 @@ countries = {
         "Spanish Wells"
     ],
 }
-
-function countCity(arr) {
-    for (let key in arr) {
-        let cityName = arr[key]
-        let x = key.split('')
-        let y = key.at(0)
-
-        // console.log(`${key}:${cityName.length}`)
-        console.log(`${ y }`);
-    }
-
-}
-countCity(countries)

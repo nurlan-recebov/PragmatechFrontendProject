@@ -116,11 +116,3 @@ countries = {
     // write
     // function that
     // return city names of country which name is the longest
-function countCity(arr) {
-    for (let key in arr) {
-        let cityName = Math.max(key.length);
-        console.log(`${cityName}`)
-    }
-
-}
-countCity(countries)
