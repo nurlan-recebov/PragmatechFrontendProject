@@ -1,0 +1,1 @@
+JavaScript nədir və necə işləyir?

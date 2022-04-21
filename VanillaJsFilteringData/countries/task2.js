@@ -116,3 +116,16 @@ countries = {
         "Spanish Wells"
     ],
 }
+
+function countryLetterCount(object) {
+    let obj = {};
+    let country = Object.keys(object);
+    for (let i = 0; i < country.length; i++)
+        if (obj[`"${country[i][0]}"`]) {
+            obj[`"${country[i][0]}"`]++;
+        } else {
+            obj[`"${country[i][0]}"`] = 1;
+        }
+    return console.log(obj);
+}
+countryLetterCount(countries);

@@ -116,3 +116,17 @@ countries = {
     // write
     // function that
     // return city names of country which name is the longest
+function getCities(obj) {
+    let countriesCities = Object.entries(obj);
+    let max = 0;
+    let maxolke;
+    for (x of countriesCities) {
+        if (max < x[0].length) {
+            max = x[0].length
+            maxolke = x[1]
+
+        }
+    }
+    console.log(maxolke)
+}
+getCities(countries)
