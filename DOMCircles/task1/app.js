@@ -4,8 +4,8 @@ function createCircle(_selector, _radius, _background) {
     container.className = `${_selector}`
     circle.className = 'circle'
     container.appendChild(circle)
-    circle.style.width = `${_radius}px`
-    circle.style.height = `${_radius}px`
+    circle.style.width = `${_radius*2}px`
+    circle.style.height = `${_radius*2}px`
     circle.style.background = `${_background}`
     circle.style.borderRadius = '50%'
     circle.style.border = '1px solid black'
