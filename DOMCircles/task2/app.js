@@ -20,4 +20,4 @@ function createMultipleCircle(_selector, _circleCount, _radius, _background) {
         dom.style.position = 'relative'
     }
 }
-createMultipleCircle('box', 4, 200, 'yellow')
+createMultipleCircle('box', 8, 200, 'yellow')
