@@ -14,6 +14,7 @@ body {
     background-color: white;
     padding-left: 50px;
     padding-top: 40px;
+    overflow: hidden;
 }
 
 .movies {
@@ -57,18 +58,35 @@ p {
 
 .movie i {
     font-size: 10px;
-    color: rgb(130, 202, 250);
+    color: white;
 }
 
-.icon {
+.icon,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6,
+.icon7,
+.icon8,
+.icon9,
+.icon10 {
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    border: 1px solid rgb(130, 202, 250);
+    width: 18px;
+    height: 18px;
+    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
     display: none;
     text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.setshows {
+    display: block;
 }
