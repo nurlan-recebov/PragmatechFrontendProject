@@ -25,23 +25,18 @@ function mov2() {
 
 function mov3() {
     icon3.style.display = "block"
-
-
 }
 
 function mov4() {
     icon4.style.display = 'block'
-
 }
 
 function mov5() {
     icon5.style.display = 'block'
-
 }
 
 function mov6() {
     icon6.style.display = 'block'
-
 }
 
 function mov7() {
@@ -61,10 +56,8 @@ function mov10() {
     icon10.style.display = 'block'
 }
 
-
 document.querySelectorAll('p').forEach(item => {
     item.addEventListener('click', event => {
-
         input.value = `${item.innerHTML}`
     })
 });
@@ -77,13 +70,14 @@ document.querySelector('input').addEventListener('keypress', function(e) {
         create.innerHTML = `${input.value}`
         create.onclick = function() {
             input.value = `${create.innerHTML}`
-            document.querySelectorAll('.movie').forEach(item => {
-                item.addEventListener('click', event => {
-                    item.style.background = "rgb(130, 202, 250)";
-                    item.style.color = 'white'
-                })
-            })
-
+            create.style.background = "rgb(130, 202, 250)";
+            create.style.color = 'white'
         }
     }
 });
+document.querySelectorAll('.movie').forEach(item => {
+    item.addEventListener('click', event => {
+        item.style.background = "rgb(130, 202, 250)";
+        item.style.color = 'white'
+    })
+})

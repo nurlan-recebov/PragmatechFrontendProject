@@ -1,0 +1,91 @@
+@import url('reset.css');
+body {
+    background-color: #d2e5ff;
+    transition: all 300ms linear;
+    font-family: 'Montserrat';
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.switcher {
+    background-color: #87B0FF;
+    width: 100px;
+    margin: 0 40px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 300ms linear;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.turn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 300ms linear;
+    transform: translateX(10px) !important;
+    -webkit-transform: translateX(10px) !important;
+    -moz-transform: translateX(10px) !important;
+    -ms-transform: translateX(10px) !important;
+    -o-transform: translateX(10px) !important;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.turnOff {
+    transform: translateX(42px) !important;
+    -webkit-transform: translateX(42px) !important;
+    -moz-transform: translateX(42px) !important;
+    -ms-transform: translateX(42px) !important;
+    -o-transform: translateX(42px) !important;
+}
+
+span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.light {
+    color: black;
+}
+
+.dark {
+    color: rgb(134, 134, 134)
+}
+
+.bodydark {
+    background-color: #292e3b;
+}
