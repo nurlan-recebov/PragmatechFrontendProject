@@ -1,0 +1,11 @@
+var body = document.querySelector('body')
+var switcher = document.querySelector('.switcher')
+var light = document.querySelector('.light')
+var dark = document.querySelector('.dark')
+var turn = document.querySelector('.turn')
+switcher.addEventListener('click', function() {
+    body.classList.toggle('bodydark')
+    light.classList.toggle('dark')
+    dark.classList.toggle('dark')
+    turn.classList.toggle('turnOff')
+})

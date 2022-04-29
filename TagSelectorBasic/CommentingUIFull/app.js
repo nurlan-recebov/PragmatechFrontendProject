@@ -1,13 +1,16 @@
 var body = document.querySelector('body')
 var input = document.querySelector('input')
+var comments = document.querySelector('.comments')
+var count = document.querySelector('.count h4')
 const d = new Date();
 document.querySelector('input').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
+
         var create = document.createElement('div')
         create.className = 'comment'
-        body.appendChild(create)
+        comments.appendChild(create)
             // create.innerHTML = `${input.value}`
-        create.innerHTML = `<div class="sekil"><img src="dog1.jpg" alt="" srcset=""></div>
+        create.innerHTML = `<div class="sekil"><img src="cat1.jpg" alt="" srcset=""></div>
         <div class="items">
             <div class="item">
                 <h2>Kenzo Nakamura</h2>
@@ -15,7 +18,11 @@ document.querySelector('input').addEventListener('keypress', function(e) {
             </div>
             <h5>${input.value}</h5>
         </div>`
+        create.onclick = function() {
+            create.style.display = 'none'
 
+        }
+        count.innerHTML = `${document.getElementsByTagName("p").length} comments`
     }
 
 });
