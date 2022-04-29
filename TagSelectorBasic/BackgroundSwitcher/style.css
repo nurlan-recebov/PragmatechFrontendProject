@@ -34,14 +34,14 @@ body {
     display: flex;
     align-items: center;
     transition: all 300ms linear;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
 }
 
 .turn {

@@ -3,10 +3,10 @@
         height: 45px;
         object-fit: cover;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
         position: absolute;
         margin-right: 330px;
     }
@@ -26,10 +26,10 @@
         color: gray;
         text-align: center;
         border-radius: 30px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        -ms-border-radius: 30px;
-        -o-border-radius: 30px;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
         border: 1px solid gray;
         outline: none;
         font-weight: 400;
@@ -56,7 +56,7 @@
     }
     
     .comment {
-        width: 390px;
+        width: 450px;
         display: flex;
         padding: 10px;
         height: 100px;
@@ -85,10 +85,10 @@
         height: 75px;
         object-fit: cover;
         border-radius: 50%;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
         margin-right: 20px;
     }
     
@@ -104,6 +104,8 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column-reverse;
+        position: absolute;
+        margin-top: 120px;
     }
     
     .count {
