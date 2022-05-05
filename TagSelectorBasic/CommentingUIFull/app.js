@@ -19,8 +19,8 @@ document.querySelector('input').addEventListener('keypress', function(e) {
             <h5>${input.value}</h5>
         </div>`
         create.onclick = function() {
-            create.style.display = 'none'
-
+            create.remove()
+            count.innerHTML = `${document.getElementsByTagName("p").length} comments`
         }
         count.innerHTML = `${document.getElementsByTagName("p").length} comments`
     }
