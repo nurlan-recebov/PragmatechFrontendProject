@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.container {
+    /* width: 1349px;
+    height: 900px; */
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    /* width: 1349px; */
+    top: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    padding: 13px 15px;
+    text-align: center;
+    color: black;
+    /* margin-bottom: 60px; */
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.container p {
+    color: black;
+    width: 600px;
+}
+
+.btn {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid lightseagreen;
+    background-color: aliceblue;
+    color: gray;
+    /* margin-top: 30px; */
+}
+
+button:nth-child(1) {
+    background-color: lightseagreen;
+    color: aliceblue;
+}
+
+.price-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 320px;
+    height: 440px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid lightseagreen;
+}
+
+.price-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+    padding: 4px;
+    font-size: 10px;
+}
+
+.price h1 {
+    color: lightseagreen;
+    font-size: 40px;
+}
+
+.price h5 {
+    font-weight: 500;
+}
+
+.price-tags button {
+    color: lightseagreen;
+    font-weight: 900;
+    background: white;
+}
+
+.price-list {
+    display: flex;
+}
+
+.services {
+    transition: all .2s ease;
+    transform: scale(1.1);
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    opacity: 100;
+    border: none;
+    cursor: pointer;
+}
+
+.price-lists {
+    display: flex;
+}
