@@ -65,7 +65,7 @@ button:nth-child(1) {
     -ms-flex-align: center;
     align-items: center;
     width: 320px;
-    height: 440px;
+    height: 470px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid lightseagreen;
@@ -87,10 +87,10 @@ button:nth-child(1) {
 i {
     margin-right: 10px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
     border: 1px solid green;
     color: green;
     padding: 4px;
@@ -118,20 +118,43 @@ i {
 
 .services {
     transition: all .2s ease;
-    transform: scale(1.1);
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    -ms-transition: all .2s ease;
-    -o-transition: all .2s ease;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    transform: scale(1.2);
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
     opacity: 100;
     border: none;
     cursor: pointer;
+    box-shadow: 0px 0px 26px -1px rgba(0, 19, 9, 0.2);
+    height: 510px;
 }
 
 .price-lists {
     display: flex;
+}
+
+.rec {
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+    color: green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    display: none;
+}
+
+.rec h2 {
+    color: green;
+}
+
+.recs {
+    display: block;
 }
