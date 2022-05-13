@@ -35,23 +35,33 @@ function checkbox() {
 }
 
 function loginlink() {
-    document.querySelector('.login-form').style.display = 'block'
-    document.querySelector('.signup-form').style.display = 'none'
-    document.querySelector('.forgot-form').style.display = 'none'
+    document.querySelector('.login-form').style.top = '0px'
+    document.querySelector('.signup-form').style.top = '-1100px'
+        // document.querySelector('.forgot-form').style.top = '600px'
+        // document.querySelector('.signup-form').classList.toggle('bounceDown')
+
 }
 
 
 
 function signup() {
-    document.querySelector('.login-form').style.display = 'none'
-    document.querySelector('.signup-form').style.display = 'block'
-    document.querySelector('.forgot-form').style.display = 'none'
+    document.querySelector('.login-form').style.top = '-800px'
+    document.querySelector('.signup-form').style.top = '0px'
+        // document.querySelector('.forgot-form').style.top = '600px'
 }
 
 function forgotlink() {
-    document.querySelector('.login-form').style.display = 'none'
-    document.querySelector('.signup-form').style.display = 'none'
-    document.querySelector('.forgot-form').style.display = 'block'
+    document.querySelector('.login-form').style.top = '-800px'
+        // document.querySelector('.signup-form').style.top = '600px'
+    document.querySelector('.forgot-form').style.top = '150px'
+
+
+}
+
+function loginin() {
+    document.querySelector('.login-form').style.top = '0px'
+        // document.querySelector('.signup-form').style.top = '600px'
+    document.querySelector('.forgot-form').style.top = '-800px'
 
 
 }

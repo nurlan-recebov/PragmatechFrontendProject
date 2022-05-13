@@ -16,7 +16,7 @@
 
 <body>
     <div class="container">
-        <div class="parent-circle">
+        <div class="parent-circle ">
             <div class="circle"></div>
             <div class="circle"></div>
         </div>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="link" onclick="signup()"><span class="signup-link">Sign Up</span></div>
             </div>
-            <div style="display:none;" class="signup-form bounceDown" style="top: 0px;">
+            <div class="signup-form">
 
                 <form action="index.html" method="post">
                     <h3>Sign Up Here</h3>
@@ -75,7 +75,7 @@
                 </form>
 
             </div>
-            <div style="display:none;" class="forgot-form">
+            <div class="forgot-form">
                 <form action="index.html" method="post" onsubmit="return forgotFormCheck()">
                     <h3>Forgot Password</h3>
                     <div>
@@ -84,7 +84,7 @@
 
                     </div>
                     <button class="login-button" type="submit" onclick="">Send Email</button>
-                    <span onclick="loginlink() " class="forgot-login-link ">Log In</span>
+                    <span onclick="loginin() " class="forgot-login-link ">Log In</span>
                 </form>
             </div>
         </div>
