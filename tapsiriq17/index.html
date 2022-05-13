@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=devi
+    ce-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,600&family=Oswald:wght@200&family=Poppins:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="parent-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="wrapper">
+            <div class="login-form">
+                <h3>Login Here</h3>
+
+                <form action="/action_page.php">
+                    <div class="page-card-infologin">
+                        <label for="fname">Username</label>
+                        <input type="text" id="username" name="surname" placeholder="Email" />
+                        <label for="lname">Password</label>
+                        <input type="password" id="password" placeholder="Password" name="password" />
+                        <i onclick="kodGoster()" class="fa-solid fa-eye-slash"></i>
+                    </div>
+                    <br /><br />
+                </form>
+                <div class="checks">
+                    <div class="check">
+                        <div onclick="checkbox()" class="check-box">
+                            <i class="fa-solid fa-checks"></i>
+                        </div>
+                        <span class="rem">Remember Me</span>
+                    </div>
+                    <span onclick="forgotlink() " class="forgot-link">Forgot Password?</span>
+                </div>
+                <button class="login-button" type="submit">Log In</button>
+                <div class="social">
+                    <a href="google.com">Google</a>
+                    <a href="facebook.com">Facebook</a>
+                </div>
+                <div class="link" onclick="signup()"><span class="signup-link">Sign Up</span></div>
+            </div>
+            <div style="display:none;" class="signup-form bounceDown" style="top: 0px;">
+
+                <form action="index.html" method="post">
+                    <h3>Sign Up Here</h3>
+                    <div>
+                        <label for=" ">Full Name</label><span class="fullname-warning " style="opacity: 0; "></span>
+                        <input type="text " placeholder="Full Name " id="fullName ">
+                    </div>
+                    <div>
+                        <label for=" ">Email</label>
+                        <input type="text " placeholder="Email " id="signupEmail ">
+                        <span class="material-icons sign-done " style="opacity: 0; transform: translateY(20px); ">done</span>
+                    </div>
+                    <div>
+                        <label for=" ">Password</label><span class="password-warning " style="opacity: 0; "></span>
+                        <input type="password" placeholder="Password " id="signupPassword ">
+                        <label for=" ">Confirm Password</label>
+                        <input type="password" placeholder="Confirm Password " id="confirmPassword ">
+                    </div>
+                    <button class="login-button " type="submit " onclick=" ">Sign Up</button>
+
+                    <div class="link " onclick="loginlink() "> <span class="login-link ">Log In</span></div>
+                </form>
+
+            </div>
+            <div style="display:none;" class="forgot-form">
+                <form action="index.html" method="post" onsubmit="return forgotFormCheck()">
+                    <h3>Forgot Password</h3>
+                    <div>
+                        <label for="forgotEmail">Email</label>
+                        <input type="text" placeholder="Email" id="forgotEmail">
+
+                    </div>
+                    <button class="login-button" type="submit" onclick="">Send Email</button>
+                    <span onclick="loginlink() " class="forgot-login-link ">Log In</span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js "></script>
+</body>
+
+</html>
