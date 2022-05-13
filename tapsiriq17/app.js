@@ -65,3 +65,17 @@ function loginin() {
 
 
 }
+
+// function nurlan() {
+//     document.querySelector("#username").classList.toggle('in')
+// }
+input = document.querySelector('#password')
+input.addEventListener("keypress", function(event) {
+    // If the user presses the "Enter" key on the keyboard
+    if (event.key === "Enter") {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        document.querySelector("#username").classList.toggle('in')
+    }
+});
