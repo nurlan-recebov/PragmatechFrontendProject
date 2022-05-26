@@ -1,0 +1,48 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    font-size: 31px;
+    color: yellow;
+}
+
+button {
+    padding: 10px 50px;
+    background-color: greenyellow;
+    cursor: pointer;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+body {
+    background-color: black;
+}
+
+button:hover {
+    background-color: orangered;
+    color: yellow;
+}
+
+.sekil img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    transition: 2s all linear;
+    -webkit-transition: 2s all linear;
+    -moz-transition: 2s all linear;
+    -ms-transition: 2s all linear;
+    -o-transition: 2s all linear;
+}
+
+
+/* img:hover {
+    transition: 1s all linear;
+    width: 400px;
+    height: 400px;
+    -webkit-transition: 1s all linear;
+    -moz-transition: 1s all linear;
+    -ms-transition: 1s all linear;
+    -o-transition: 1s all linear;
+} */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Counter</h1>
+        <p class="par" id="par"></p>
+        <div class="btn">
+            <button onclick="sayiazalt()" id="1">Decraise</button>
+            <button onclick="reset()" id="2">Reset</button>
+            <button onclick="sayArtir()" id="3">Increase</button>
+        </div>
+    </div>
+    <script>
+        let par = document.querySelector(".par")
+        let i = 0
+
+        function sayArtir() {
+            par.innerHTML = i
+            i++
+        }
+
+        function sayiazalt() {
+            par.innerHTML = i
+            i--
+        }
+
+        function reset() {
+            par.innerHTML = 0
+
+        }
+    </script>
+</body>
+
+</html>

@@ -53,7 +53,7 @@ for (let i = 0; i < 4; i++) {
 let x = document.querySelector('.price-list')
 x.addEventListener('click', selectItem)
 
-let z = document.querySelector('.price-list-item').children[0]
+let z = document.querySelector('.price-list-item').parentElement
 
 console.log(z);
 

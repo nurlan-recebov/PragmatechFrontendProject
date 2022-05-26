@@ -6,6 +6,7 @@ function kodGoster() {
         elem[4].classList.remove("fa-eye-slash");
         elem[3].type = "";
     } else {
+
         elem[4].classList.remove("fa-eye");
         elem[4].classList.add("fa-eye-slash");
         elem[3].type = "password";

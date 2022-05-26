@@ -1,749 +1,749 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Droid Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 .container {
-  width: 1349px;
-  height: 900px;
-  margin: 0px auto;
-  text-align: center;
+    width: 1349px;
+    height: 900px;
+    margin: 0px auto;
+    text-align: center;
 }
 
 .container h2 {
-  width: 1349px;
-  top: 0px;
-  font-weight: 700;
-  font-size: 18px;
-  margin: 0;
-  padding: 13px 15px;
-  text-align: center;
-  color: white;
-  margin-bottom: 60px;
-  font-family: 'Droid Sans', sans-serif;
+    width: 1349px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    padding: 13px 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 .container p {
-  color: #919191;
+    color: #919191;
 }
 
 .services-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
 }
 
 .services-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 360px;
-  height: 411px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-left: 25px;
-  padding: 10px;
-  margin: 40px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 360px;
+    height: 411px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 25px;
+    padding: 10px;
+    margin: 40px 25px;
 }
 
 .icon {
-  width: 130px;
-  height: 130px;
-  margin: 10px;
-  border: solid;
-  border-radius: 100%;
-  text-align: center;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    border: solid;
+    border-radius: 100%;
+    text-align: center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
 .icon i {
-  font-size: 52px;
-  line-height: 120px;
-  display: inline-block;
+    font-size: 52px;
+    line-height: 120px;
+    display: inline-block;
 }
 
 .container {
-  width: 1349px;
-  height: 900px;
-  margin: 0px auto;
-  text-align: center;
+    width: 1349px;
+    height: 900px;
+    margin: 0px auto;
+    text-align: center;
 }
 
 .container h2 {
-  width: 1319px;
-  top: 0px;
-  font-weight: 700;
-  font-size: 18px;
-  margin: 0;
-  padding: 13px 15px;
-  text-align: center;
-  color: white;
-  margin-bottom: 60px;
+    width: 1319px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    padding: 13px 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
 }
 
 button {
-  padding: 14px 35px;
-  color: #fff;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  border: 1px solid transparent;
-  margin-bottom: 20px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
+    padding: 14px 35px;
+    color: #fff;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 
 .demo1 h2 {
-  background-color: orange;
+    background-color: orange;
 }
 
 .demo1 .icon {
-  color: orange;
+    color: orange;
 }
 
 .demo1 button {
-  background: orange;
+    background: orange;
 }
 
 .demo1 .services-item {
-  width: 360px;
-  height: 411px;
-  -webkit-box-shadow: 1px 1px 10px #9e9e9e;
-          box-shadow: 1px 1px 10px #9e9e9e;
+    width: 360px;
+    height: 411px;
+    -webkit-box-shadow: 1px 1px 10px #9e9e9e;
+    box-shadow: 1px 1px 10px #9e9e9e;
 }
 
 .demo1 .services-item::after {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  width: 340px;
-  height: 0;
-  background-color: orange;
-  z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 340px;
+    height: 0;
+    background-color: orange;
+    z-index: -1;
 }
 
 .demo1 .services-item:hover::after {
-  height: 391px;
-  transition: all 0.4s linear;
-  padding: 10px;
-  margin: 40px 25px;
-  -webkit-transition: all 0.4s linear;
-  -moz-transition: all 0.4s linear;
-  -ms-transition: all 0.4s linear;
-  -o-transition: all 0.4s linear;
+    height: 391px;
+    transition: all 0.4s linear;
+    padding: 10px;
+    margin: 40px 25px;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
 }
 
 .demo1 .services-item:hover {
-  color: white;
+    color: white;
 }
 
 .demo1 .services-item:hover button {
-  background: white;
-  color: orange;
+    background: white;
+    color: orange;
 }
 
 .demo1 .services-item:hover .icon {
-  color: white;
+    color: white;
 }
 
 .demo1 .services-item:hover p {
-  color: white;
+    color: white;
 }
 
 .demo1 a {
-  color: white;
+    color: white;
 }
 
 .demo2 {
-  background-color: #5656a6;
+    background-color: #5656a6;
 }
 
 .demo2 h2 {
-  background-color: #4d4d95;
+    background-color: #4d4d95;
 }
 
 .demo2 .icon {
-  color: white;
+    color: white;
 }
 
 .demo2 button {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
 }
 
 .demo2 .services-item:hover {
-  background-color: #4d4d95;
-  transition: all .4s ease;
-  transform: scale(0.9);
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -ms-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
+    background-color: #4d4d95;
+    transition: all .4s ease;
+    transform: scale(0.9);
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
 }
 
 .demo2 h1,
 .demo2 p {
-  color: white;
+    color: white;
 }
 
 .demo2 .services-item:hover button {
-  background-color: #5656a6;
-  color: white;
+    background-color: #5656a6;
+    color: white;
 }
 
 .demo2 a {
-  color: black;
+    color: black;
 }
 
 .demo3 .services-item {
-  width: 360px;
-  height: 352px;
+    width: 360px;
+    height: 352px;
 }
 
 .demo3 h2 {
-  background-color: #24cf5f;
-  color: white;
+    background-color: #24cf5f;
+    color: white;
 }
 
 .demo3 .icon {
-  color: #24cf5f;
-  border: none;
+    color: #24cf5f;
+    border: none;
 }
 
 .demo3 button {
-  background: #24cf5f;
-  border-radius: 43px;
-  -webkit-border-radius: 43px;
-  -moz-border-radius: 43px;
-  -ms-border-radius: 43px;
-  -o-border-radius: 43px;
+    background: #24cf5f;
+    border-radius: 43px;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    -ms-border-radius: 43px;
+    -o-border-radius: 43px;
 }
 
 .demo3 .overlay:hover {
-  -webkit-animation-name: example;
-          animation-name: example;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+    -webkit-animation-name: example;
+    animation-name: example;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes example {
-  0% {
-    border-bottom: 2px solid #24cf5f;
-  }
-  25% {
-    border-bottom: 2px solid #24cf5f;
-    border-left: 2px solid #24cf5f;
-  }
-  50% {
-    border-bottom: 2px solid #24cf5f;
-    border-left: 2px solid #24cf5f;
-    border-top: 2px solid #24cf5f;
-  }
-  100% {
-    border: 2px solid #24cf5f;
-  }
+    0% {
+        border-bottom: 2px solid #24cf5f;
+    }
+    25% {
+        border-bottom: 2px solid #24cf5f;
+        border-left: 2px solid #24cf5f;
+    }
+    50% {
+        border-bottom: 2px solid #24cf5f;
+        border-left: 2px solid #24cf5f;
+        border-top: 2px solid #24cf5f;
+    }
+    100% {
+        border: 2px solid #24cf5f;
+    }
 }
 
 @keyframes example {
-  0% {
-    border-bottom: 2px solid #24cf5f;
-  }
-  25% {
-    border-bottom: 2px solid #24cf5f;
-    border-left: 2px solid #24cf5f;
-  }
-  50% {
-    border-bottom: 2px solid #24cf5f;
-    border-left: 2px solid #24cf5f;
-    border-top: 2px solid #24cf5f;
-  }
-  100% {
-    border: 2px solid #24cf5f;
-  }
+    0% {
+        border-bottom: 2px solid #24cf5f;
+    }
+    25% {
+        border-bottom: 2px solid #24cf5f;
+        border-left: 2px solid #24cf5f;
+    }
+    50% {
+        border-bottom: 2px solid #24cf5f;
+        border-left: 2px solid #24cf5f;
+        border-top: 2px solid #24cf5f;
+    }
+    100% {
+        border: 2px solid #24cf5f;
+    }
 }
 
 .demo3 button:hover {
-  background-color: #47df7b;
+    background-color: #47df7b;
 }
 
 .demo3 a {
-  color: white;
+    color: white;
 }
 
 .demo4 h2 {
-  background-color: #e12573;
+    background-color: #e12573;
 }
 
 .demo4 .services-item {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .demo4 .icon {
-  border: none;
-  color: #e12573;
+    border: none;
+    color: #e12573;
 }
 
 .demo4 button {
-  background: #e12573;
-  border-radius: 43px;
-  margin-bottom: 100px;
-  padding: 12px 10px;
-  margin-left: 30px;
-  -webkit-border-radius: 43px;
-  -moz-border-radius: 43px;
-  -ms-border-radius: 43px;
-  -o-border-radius: 43px;
+    background: #e12573;
+    border-radius: 43px;
+    margin-bottom: 100px;
+    padding: 12px 10px;
+    margin-left: 30px;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    -ms-border-radius: 43px;
+    -o-border-radius: 43px;
 }
 
 .demo4 .services-item {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .demo4 .services-item::after {
-  position: absolute;
-  content: "";
-  background-color: #e12573;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  transition: all .4s ease;
-  transform: translateX(100%);
-  right: 0;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -ms-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #e12573;
-  z-index: -1;
-  margin-bottom: 80px;
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
+    position: absolute;
+    content: "";
+    background-color: #e12573;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    transition: all .4s ease;
+    transform: translateX(100%);
+    right: 0;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e12573;
+    z-index: -1;
+    margin-bottom: 80px;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
 }
 
 .demo4 .services-item:hover::after {
-  transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
 }
 
 .demo4 .services-item:hover .icon {
-  color: white;
+    color: white;
 }
 
 .demo4 .services-item:hover button {
-  background-color: #e75290;
+    background-color: #e75290;
 }
 
 .demo4 .services-item:hover p {
-  color: white;
+    color: white;
 }
 
 .demo4 .services-item:hover h1 {
-  color: white;
+    color: white;
 }
 
 .demo4 a {
-  color: white;
+    color: white;
 }
 
 .demo5 h2 {
-  background-color: #1997d3;
+    background-color: #1997d3;
 }
 
 .demo5 .services-item {
-  width: 390px;
-  height: 351px;
-  color: #1997d3;
-  position: relative;
+    width: 390px;
+    height: 351px;
+    color: #1997d3;
+    position: relative;
 }
 
 .demo5 .overlay {
-  border: 2px solid #1997d3;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  outline: #71d1ff solid 2px;
-  outline-offset: -10px;
-  margin: 40px 0;
-  padding: 10px;
-  transition: all .8s ease;
-  background: #20b7ff;
-  -webkit-box-shadow: 0 0 0 18px #1894ce inset;
-          box-shadow: 0 0 0 18px #1894ce inset;
-  -webkit-transition: all .8s ease;
-  -moz-transition: all .8s ease;
-  -ms-transition: all .8s ease;
-  -o-transition: all .8s ease;
+    border: 2px solid #1997d3;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    outline: #71d1ff solid 2px;
+    outline-offset: -10px;
+    margin: 40px 0;
+    padding: 10px;
+    transition: all .8s ease;
+    background: #20b7ff;
+    -webkit-box-shadow: 0 0 0 18px #1894ce inset;
+    box-shadow: 0 0 0 18px #1894ce inset;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 
 .demo5 .icon {
-  border: none;
-  color: #eef8fd;
+    border: none;
+    color: #eef8fd;
 }
 
 .demo5 button {
-  background-color: #1997d3;
+    background-color: #1997d3;
 }
 
 .demo5 .services-item p {
-  color: white;
+    color: white;
 }
 
 .demo5 .services-item h1 {
-  color: white;
+    color: white;
 }
 
 .demo5 .services-item :hover {
-  background: #1997d3;
-  transition: all .8s ease;
-  -webkit-transition: all .8s ease;
-  -moz-transition: all .8s ease;
-  -ms-transition: all .8s ease;
-  -o-transition: all .8s ease;
+    background: #1997d3;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 
 .demo5 .services-item:hover button {
-  background-color: #71d1ff;
+    background-color: #71d1ff;
 }
 
 .demo5 .services-item:hover .overlay {
-  outline: #1997d3 solid 2px;
-  border: 2px solid #1997d3;
-  -webkit-box-shadow: 0 0 0 18px #65c1ed inset;
-          box-shadow: 0 0 0 18px #65c1ed inset;
+    outline: #1997d3 solid 2px;
+    border: 2px solid #1997d3;
+    -webkit-box-shadow: 0 0 0 18px #65c1ed inset;
+    box-shadow: 0 0 0 18px #65c1ed inset;
 }
 
 .demo5 .services-item::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  background-color: #20b7ff;
-  z-index: -1;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
-  top: 0;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #20b7ff;
+    z-index: -1;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    top: 0;
 }
 
 .demo5 .services-item:hover::after {
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  z-index: 1;
-  cursor: pointer;
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    z-index: 1;
+    cursor: pointer;
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
 }
 
 .demo5 a {
-  color: white;
+    color: white;
 }
 
 .demo6 h2 {
-  background-color: #19d3ca;
+    background-color: #19d3ca;
 }
 
 .demo6 .overlay {
-  margin-top: 150px;
+    margin-top: 150px;
 }
 
 .demo6 .icon {
-  border: none;
-  font-size: 52px;
-  line-height: 120px;
-  width: 130px;
-  height: 130px;
-  margin: 20px;
-  transition: all .8s ease;
-  color: #fff;
-  border-radius: 10px;
-  background: #19d3ca;
-  -webkit-transition: all .8s ease;
-  -moz-transition: all .8s ease;
-  -ms-transition: all .8s ease;
-  -o-transition: all .8s ease;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+    border: none;
+    font-size: 52px;
+    line-height: 120px;
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+    transition: all .8s ease;
+    color: #fff;
+    border-radius: 10px;
+    background: #19d3ca;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .demo6 button {
-  background: #19d3ca;
-  border-radius: 43px;
-  -webkit-border-radius: 43px;
-  -moz-border-radius: 43px;
-  -ms-border-radius: 43px;
-  -o-border-radius: 43px;
+    background: #19d3ca;
+    border-radius: 43px;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    -ms-border-radius: 43px;
+    -o-border-radius: 43px;
 }
 
 .demo6 a {
-  color: white;
+    color: white;
 }
 
 .demo6 .services-item {
-  position: relative;
+    position: relative;
 }
 
 .demo6 span {
-  font-size: 72px;
-  line-height: 72px;
-  position: relative;
-  display: inline-block;
-  transition: all .4s ease;
-  color: #e9e9e9;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -ms-transition: all .4s ease;
-  -o-transition: all .4s ease;
+    font-size: 72px;
+    line-height: 72px;
+    position: relative;
+    display: inline-block;
+    transition: all .4s ease;
+    color: #e9e9e9;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
 }
 
 .demo6 .counter {
-  position: relative;
-  text-align: right;
-  border-bottom: 1px solid #19d3ca;
-  width: 300px;
-  height: 110px;
-  overflow: hidden;
-  padding: 30px;
+    position: relative;
+    text-align: right;
+    border-bottom: 1px solid #19d3ca;
+    width: 300px;
+    height: 110px;
+    overflow: hidden;
+    padding: 30px;
 }
 
 .demo6 .services-item:hover span {
-  bottom: 35px;
-  transition: all .6s linear;
-  -webkit-transition: all .6s linear;
-  -moz-transition: all .6s linear;
-  -ms-transition: all .6s linear;
-  -o-transition: all .6s linear;
+    bottom: 35px;
+    transition: all .6s linear;
+    -webkit-transition: all .6s linear;
+    -moz-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    -o-transition: all .6s linear;
 }
 
 .demo6 .services-items {
-  position: relative;
+    position: relative;
 }
 
 .demo6 .services-item:hover .icon {
-  transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -moz-transform: scaleX(-1);
-  -ms-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
 }
 
 .demo6 button:hover {
-  background: #14a59e;
+    background: #14a59e;
 }
 
 .demo7 .overlay {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
 }
 
 .demo7 h2 {
-  background-color: #2e4b9b;
+    background-color: #2e4b9b;
 }
 
 .demo7 .icon {
-  border: none;
-  color: #2e4b9b;
-  position: absolute;
-  z-index: -1;
-  margin-bottom: 250px;
-  margin-left: 150px;
+    border: none;
+    color: #2e4b9b;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 250px;
+    margin-left: 150px;
 }
 
 .demo7 .services-item:hover .icon {
-  margin-left: -100px;
-  transition: all .4s ease;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -ms-transition: all .4s ease;
-  -o-transition: all .4s ease;
+    margin-left: -100px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
 }
 
 .demo7 .services-item {
-  position: relative;
+    position: relative;
 }
 
 .demo7 .icon i {
-  font-size: 142px;
-  color: #8aa9ff;
+    font-size: 142px;
+    color: #8aa9ff;
 }
 
 .demo7 h1 {
-  font-weight: 900px;
-  font-size: 30px;
+    font-weight: 900px;
+    font-size: 30px;
 }
 
 .demo7 button {
-  background-color: #2e4b9b;
+    background-color: #2e4b9b;
 }
 
 .demo7 button:hover {
-  background-color: #8aa9ff;
+    background-color: #8aa9ff;
 }
 
 .demo8 .container {
-  background-color: #edf4f3;
+    background-color: #edf4f3;
 }
 
 .demo8 h2 {
-  background-color: #ff4343;
+    background-color: #ff4343;
 }
 
 .demo8 .icon {
-  color: #ff4343;
-  border: 1px solid #e5e5e5;
-  border-radius: 100%;
-  -webkit-box-shadow: 5px 5px 3px #ddd;
-          box-shadow: 5px 5px 3px #ddd;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
+    color: #ff4343;
+    border: 1px solid #e5e5e5;
+    border-radius: 100%;
+    -webkit-box-shadow: 5px 5px 3px #ddd;
+    box-shadow: 5px 5px 3px #ddd;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
 .demo8 button {
-  background: #ff4343;
-  border-radius: 43px;
-  -webkit-border-radius: 43px;
-  -moz-border-radius: 43px;
-  -ms-border-radius: 43px;
-  -o-border-radius: 43px;
+    background: #ff4343;
+    border-radius: 43px;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    -ms-border-radius: 43px;
+    -o-border-radius: 43px;
 }
 
 .demo8 .services-item {
-  width: 360px;
-  height: 411px;
-  -webkit-box-shadow: 1px 1px 10px #9e9e9e;
-          box-shadow: 1px 1px 10px #9e9e9e;
-  background-color: #fff;
+    width: 360px;
+    height: 411px;
+    -webkit-box-shadow: 1px 1px 10px #9e9e9e;
+    box-shadow: 1px 1px 10px #9e9e9e;
+    background-color: #fff;
 }
 
 .demo8 .services-item button:hover {
-  background: #d70000;
-  color: white;
+    background: #d70000;
+    color: white;
 }
 
 .demo8 .services-item:hover .icon {
-  -webkit-box-shadow: -5px 5px 3px #ddd;
-          box-shadow: -5px 5px 3px #ddd;
-  transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
+    -webkit-box-shadow: -5px 5px 3px #ddd;
+    box-shadow: -5px 5px 3px #ddd;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
 }
 
 .demo8 a {
-  color: white;
+    color: white;
 }
 
 .demo8 .services-item h1 {
-  background-color: #edf4f3;
-  padding: 13px 25px;
-  width: 300px;
-  position: relative;
-  overflow: hidden;
+    background-color: #edf4f3;
+    padding: 13px 25px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
 }
 
 .demo8 .services-item h1::after {
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  background-color: #ff4343;
-  content: "";
-  position: absolute;
-  z-index: 0, 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    background-color: #ff4343;
+    content: "";
+    position: absolute;
+    z-index: 0, 1;
 }
 
 .demo8 .services-item:hover h1::after {
-  transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
 }
 
 .demo8 .services-item:hover h1 {
-  color: white;
+    color: white;
 }

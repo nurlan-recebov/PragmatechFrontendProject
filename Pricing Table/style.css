@@ -87,10 +87,6 @@ button:nth-child(1) {
 i {
     margin-right: 10px;
     border-radius: 50%;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
     border: 1px solid green;
     color: green;
     padding: 4px;
@@ -119,10 +115,6 @@ i {
 .services {
     transition: all .2s ease;
     transform: scale(1.2);
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
