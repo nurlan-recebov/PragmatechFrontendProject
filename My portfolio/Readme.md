@@ -86,10 +86,10 @@
 
 <div align="center">
 <details> 
-<summary><strong>TagSelectorSingleFull</strong></summary>
+<summary><strong>Form Sign</strong></summary>
 </details>
 
-| [Kodlar](https://github.com/AlimaKarimova/PragmatechFrontEndProject/tree/main/Tasks_6-13/TagSelectorSingleFull/TagSelectorBasic)|
+| [Kodlar](https://github.com/nurlan-recebov/PragmatechFrontendProject/tree/main/Form%20Sign)|
 | :---------------------------------------------------------------------------------------------------:                           |
 |                      İşdə istifadə olunan texnologiyalar: HTML5, CSS3,,JavaScript                                               |  
   
@@ -98,38 +98,32 @@
 
 <div align="center">
 <details> 
-<summary><strong>BackgroundSwitcher</strong></summary>
+<summary><strong>Slider</strong></summary>
 </details>
 
-| [Kodlar](https://github.com/AlimaKarimova/PragmatechFrontEndProject/tree/main/Tasks_6-13/BackgroundSwitcher)|
+| [Kodlar](https://github.com/nurlan-recebov/PragmatechFrontendProject/tree/main/Slider)|
 | :---------------------------------------------------------------------------------------------------:       |
 |                      İşdə istifadə olunan texnologiyalar: HTML5, CSS3,JavaScript                            |  
   
  <div align="center">
 <details> 
-<summary><strong>QuizApp</strong></summary>
+<summary><strong>Pricin table</strong></summary>
 </details>
  
-| [Kodlar](https://github.com/AlimaKarimova/PragmatechFrontEndProject/tree/main/Quiz)                    |
+| [Kodlar](https://github.com/nurlan-recebov/PragmatechFrontendProject/tree/main/Pricing%20Table)                    |
 | :---------------------------------------------------------------------------------------------------: |
 |                      İşdə istifadə olunan texnologiyalar: HTML5, CSS3,JavaScript                      |  
   
 <div align="center">
 <details> 
-<summary><strong>CountDown_Time</strong></summary>
-  <img src="https://github.com/AlimaKarimova/My_Works/blob/main/CountDown_Time/2022-05-25_21-04-29.png" alt="drum_kit">
+<summary><strong>Quiz appliaction</strong></summary>
+  
 </details>
 
-| [Kodlar](https://github.com/AlimaKarimova/My_Works/tree/main/CountDown_Time)                          |
+| [Kodlar](https://github.com/nurlan-recebov/PragmatechFrontendProject/tree/main/QuizApplication))                          |
 | :---------------------------------------------------------------------------------------------------: |
 |                      İşdə istifadə olunan texnologiyalar: HTML5, CSS3,JavaScript                      |   
 
- <div align="center">
-<details> 
-<summary><strong>Drum_Kit</strong></summary>
-  <img src="https://github.com/AlimaKarimova/My_Works/blob/main/Drum_Kit/2022-05-25_20-57-50.png" alt="drum_kit">
-</details>
-
-| [Kodlar](https://github.com/AlimaKarimova/My_Works/tree/main/Drum_Kit)                                |
+                         |
 | :---------------------------------------------------------------------------------------------------: |
 |                      İşdə istifadə olunan texnologiyalar: HTML5, CSS3,JavaScript                      |   
