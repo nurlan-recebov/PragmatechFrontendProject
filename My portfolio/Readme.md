@@ -120,7 +120,7 @@
   
 </details>
 
-| [Kodlar](https://github.com/nurlan-recebov/PragmatechFrontendProject/tree/main/QuizApplication))                          |
+| [Kodlar](https://github.com/nurlan-recebov/PragmatechFrontendProject/tree/main/QuizApplication)                          |
 | :---------------------------------------------------------------------------------------------------: |
 |                      İşdə istifadə olunan texnologiyalar: HTML5, CSS3,JavaScript                      |   
 
