@@ -280,7 +280,7 @@ header {
   margin-left: 50px;
 }
 
-.vvv h3 {
+.up h3 {
   font-weight: 500;
   font-size: 18px;
   color: #808080;
@@ -288,7 +288,7 @@ header {
   margin-left: 70px;
 }
 
-.vvv .shop-items {
+.up .shop-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,14 +302,14 @@ header {
   z-index: 3;
 }
 
-.vvv .shop-items a {
+.up .shop-items a {
   text-decoration: none;
   font-size: 18px;
   color: black;
   font-weight: 500;
 }
 
-.vvv .shop-items .shop-item {
+.up .shop-items .shop-item {
   margin-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -320,13 +320,13 @@ header {
           flex-direction: column;
 }
 
-.vvv .shop-items .shop-group {
+.up .shop-items .shop-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.vvv .shop-items .group {
+.up .shop-items .group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -336,25 +336,31 @@ header {
           flex-direction: column;
 }
 
-.vvv .shop-items .group li {
+.up .shop-items .group li {
   margin-top: 10px;
 }
 
-.shops:hover .vvv {
+.shops:hover .up {
   margin-top: 60px;
-  -webkit-transition: all 1s ease;
   transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 
 .hid {
   width: 100%;
   height: 400px;
   overflow: hidden;
-  -webkit-transition: all 1s ease;
   transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 
-.vvv {
+.up {
   width: 100%;
   height: 400px;
   -webkit-box-sizing: border-box;
@@ -365,15 +371,15 @@ header {
   top: 41px;
   left: 0;
   z-index: 3;
-  transition: all 1s ease;
-  margin-top: 3900px;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
+  transition: all 0.3s ease;
+  margin-top: 800px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
-.vvv a:hover {
+.up a:hover {
   color: #D9121F;
 }
 
@@ -584,6 +590,79 @@ header {
   width: 100%;
   height: 700px;
   background-color: black;
+}
+
+.up a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+
+.women-groups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 900px;
+  background-color: white;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.women-groups .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.women-groups li {
+  margin-top: 8px;
+}
+
+.women-groups .women-items {
+  background-image: url("https://nouthemes.net/html/yobazar/img/women.png");
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  background-position: top left;
+}
+
+.women-groups .women-galery {
+  background-image: url("https://nouthemes.net/html/yobazar/img/promotion/banner-menu.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.women-groups .women-sale {
+  background-image: url("https://nouthemes.net/html/yobazar/img/products/1.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.women-groups h4 {
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  margin-left: 20px;
 }
 
 h1,
