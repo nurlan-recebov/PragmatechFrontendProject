@@ -31,3 +31,13 @@ function scrollFunction() {
 
     }
 }
+fetch('https://jsonplaceholder.typicode.com/photos')
+    .then(response => response.json())
+    .then(json => {
+        for (let i = 0; i < 100; i++) {
+            const para = document.createElement("img");
+            para.src = json[i].url;
+            document.body.appendChild(para);
+            console.log(json[i]);
+        }
+    })
