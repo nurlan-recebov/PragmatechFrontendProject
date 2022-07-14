@@ -91,7 +91,7 @@ header {
             margin: 0 10px;
         }
         i {
-            font-size: 10px;
+            font-size: 18px;
         }
     }
 }
@@ -656,4 +656,49 @@ header {
 
 .women-sale button:hover {
     background-color: #D9121F;
+}
+
+.lan-btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.lan-btnss {
+    display: none;
+}
+
+.lan-btns {
+    display: block;
+}
+
+.lan-btn button {
+    width: 50px;
+    height: 40px;
+    background-color: #D9121F;
+    outline: none;
+    border: none;
+    margin-left: -50px;
+}
+
+.lan-btn button:nth-child(2):hover {
+    background-color: gainsboro;
+}
+
+.lan-btn button:nth-child(1):hover {
+    background-color: gainsboro;
+}
+
+.lan-bt {
+    display: flex;
+    flex-direction: column;
+}
+
+.lan-btn button:nth-child(2) {
+    background-color: white;
 }

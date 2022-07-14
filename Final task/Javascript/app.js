@@ -31,13 +31,24 @@ function scrollFunction() {
 
     }
 }
-fetch('https://jsonplaceholder.typicode.com/photos')
-    .then(response => response.json())
-    .then(json => {
-        for (let i = 0; i < 100; i++) {
-            const para = document.createElement("img");
-            para.src = json[i].url;
-            document.body.appendChild(para);
-            console.log(json[i]);
-        }
-    })
+let lanbtnss = document.querySelector('.lan-btnss')
+
+// function btn() {
+//     lanbtnss.classList.toggle("lan-btns");
+// }
+document.querySelector('.flex').addEventListener('click', function(e) {
+
+    e.target.nextSibling.nextSibling.nextSibling.classList.toggle('lan-btns')
+
+
+
+})
+
+document.querySelector('.lan-btn').addEventListener("click", function(e) {
+    document.querySelector('.En').innerHTML = e.target.innerHTML
+
+});
+document.querySelector('.lan-bt').addEventListener("click", function(e) {
+    document.querySelector('.Usd').innerHTML = e.target.innerHTML
+
+});
